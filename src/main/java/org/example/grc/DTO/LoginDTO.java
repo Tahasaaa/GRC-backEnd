@@ -1,4 +1,13 @@
 package org.example.grc.DTO;
 
-public class LoginDto {
+
+import lombok.Data;
+
+@Data
+public class LoginDTO {
+    private String email;
+    private String password;
+
+
+
 }

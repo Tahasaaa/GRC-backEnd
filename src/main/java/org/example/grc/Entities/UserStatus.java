@@ -1,4 +1,7 @@
 package org.example.grc.Entities;
 
-public class UserStatus {
+public enum UserStatus {
+    PENDING,
+    APPROVED,
+    REJECTED
 }
